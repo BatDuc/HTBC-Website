@@ -22,9 +22,9 @@ Preview by double-clicking `index.html`, or use the Live Server extension in VS 
 
 ## Photos
 Replace a photo by saving a new file with the SAME name in `images/`:
-- `home-banner.jpg` - the big picture at the top of the Home page. It is
-  currently the HTBC Regatta 2026 poster (15 November 2026), so swap it after the event.
-  Any picture works; it is shown in full on a blurred copy of itself.
+- `home-banner.jpg` - the big picture at the top of the Home page, shown whole at full width.
+  Replace it with any wide photo (about 2400 pixels wide, under 700 KB) saved with the same name.
+  A photo about 3:2 wide works best, and update the `alt` text in `index.html` to describe it.
 - `members.jpg`, `boats.jpg`, `programmes.jpg`, `sunday-row.jpg` - the four Home cards
 - `hero.jpg` - the dark banner behind the title on the inner pages
 - `regatta-2026-1.jpg`, `-2.jpg`, `-3.jpg` - the photos in the Regatta 2026 blog post

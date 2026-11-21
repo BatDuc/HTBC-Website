@@ -407,10 +407,9 @@ input, select, textarea { font-size: 15px; }
 .phone { white-space: nowrap; }
 .flag { display: inline-block; width: 22px; height: 15px; margin-right: 8px; vertical-align: -2px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,.12); }
 
-/* ---------- Home banner: regatta poster shown in full ---------- */
-.banner-wrap { position: relative; overflow: hidden; background: #1a6fc7; line-height: 0; }
-.banner-wrap::before { content: ""; position: absolute; inset: -40px; background: url(images/home-banner.jpg) center/cover; filter: blur(28px); }
-.banner-wrap img { position: relative; display: block; margin: 0 auto; width: auto; max-width: 100%; height: auto; max-height: min(88vh, 760px); }
+/* ---------- Home banner: the whole photo at full width ---------- */
+.banner-wrap { line-height: 0; padding: 0; margin: 0; background: none; }
+.banner-wrap img { display: block; width: 100%; height: auto; }
 
 /* ---------- Blog cards and post page ---------- */
 a.post { display: block; text-decoration: none; color: inherit; transition: box-shadow .15s, transform .15s; }
